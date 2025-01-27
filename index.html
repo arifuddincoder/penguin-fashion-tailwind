@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <style>
+          .font-bebas-neue {
+            font-family: "Bebas Neue", serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          .font-roboto {
+            font-family: "Roboto", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+              "wdth" 100;
+              font-size: 1rem;
+          }
+        </style>
+    </head>
+    <body class="font-roboto">
+        <header class="bg-[#FFFBF0] px-4 pb-20">
+            <nav class="container flex items-center justify-between gap-4 py-10 mx-auto">
+                <a href="" class="sm:max-w-72 max-w-60">
+                    <img src="assets/icons/logo.png" alt="">
+                </a>
+                <button class=" md:hidden">
+                    <svg
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M5 16.25C5.69036 16.25 6.25 15.6904 6.25 15C6.25 14.3096 5.69036 13.75 5 13.75C4.30964 13.75 3.75 14.3096 3.75 15C3.75 15.6904 4.30964 16.25 5 16.25Z" fill="black"/>
+                        <path d="M25.075 13.75H9.925C9.27607 13.75 8.75 14.2761 8.75 14.925V15.075C8.75 15.7239 9.27607 16.25 9.925 16.25H25.075C25.7239 16.25 26.25 15.7239 26.25 15.075V14.925C26.25 14.2761 25.7239 13.75 25.075 13.75Z" fill="black"/>
+                        <path d="M25.075 20H4.925C4.27607 20 3.75 20.5261 3.75 21.175V21.325C3.75 21.9739 4.27607 22.5 4.925 22.5H25.075C25.7239 22.5 26.25 21.9739 26.25 21.325V21.175C26.25 20.5261 25.7239 20 25.075 20Z" fill="black"/>
+                        <path d="M25.075 7.5H4.925C4.27607 7.5 3.75 8.02607 3.75 8.675V8.825C3.75 9.47393 4.27607 10 4.925 10H25.075C25.7239 10 26.25 9.47393 26.25 8.825V8.675C26.25 8.02607 25.7239 7.5 25.075 7.5Z" fill="black"/>
+                    </svg>
+                </button>
+                <ul class="hidden md:flex gap-14">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Product</a>
+                    </li>
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container flex flex-col-reverse items-center justify-between gap-8 mx-auto md:flex-row md:gap-0">
+                <div class="space-y-3">
+                    <h1 class="text-5xl/[1.2] text-[#FABE4C] md:text-7xl/[1.1] font-bold font-bebas-neue">
+                        Be the Penguins
+                        <span class="block text-[#363958]">of Winter</span>
+                    </h1>
+                    <p class="text-[#3E3E3E]">
+                        Lorem Ipsum is simply dummy text of the printing 
+                          and typesetting industry.
+                    </p>
+                    <button class="flex items-center gap-2 px-8 py-4 rounded-lg font-bold text-white bg-gradient-to-b bg-[#A4BC46] bg-[#85A019]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-6"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
+                        </svg>
+                        BUY NOW
+                    </button>
+                </div>
+                <div class="lg:mr-28">
+                    <img src="assets/images/model.png" alt="">
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
